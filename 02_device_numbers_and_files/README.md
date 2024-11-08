@@ -10,8 +10,9 @@ crw--w---- 1 root tty  4,  5 Nov  6 16:31 /dev/tty5
                        ^ Major device number
 ```
 
-Find all major device numbers and what driver they are assigned `cat  /proc/devices`
-Two device files: character device, and block device. Character device files you can read and write to and from like a regular device
+Find all major device numbers and what driver they are assigned `cat  /proc/devices`\
+Two device files: character device, and block device.\
+Character device files you can read and write to and from like a regular device
 
 ## Running code to create device number
 1. Compile the code
